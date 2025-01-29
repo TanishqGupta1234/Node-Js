@@ -1,11 +1,11 @@
 const fs = require("fs");
-const http = require('http')
-const path = require('path')
-const os = require('os')
-const crypto = require('crypto')
-const sayhello = require('./greetings')
-const math = require('./Math')
-const loadsh = require('lodash')
+const http = require("http");
+const path = require("path");
+const os = require("os");
+const crypto = require("crypto");
+const sayhello = require("./greetings");
+const math = require("./Math");
+const loadsh = require("lodash");
 // fs.readFile("example.txt", "utf8", (err, data) => {
 //   if (err) {
 //     console.log(err);
@@ -98,3 +98,74 @@ const loadsh = require('lodash')
 //     console.log('file copied ');
 
 // })
+
+// const readline = require("readline");
+
+// const readbalestream = fs.createReadStream("example.txt");
+// const rl = readline.createInterface({ input: readbalestream });
+
+// rl.on("line", (line) => {
+//   console.log("line:", line);
+// });
+
+// rl.on("close", () => {
+//   console.log("Finised processing the file");
+// });
+
+// fs.mkdir('newDirectory', (err) =>{
+//     if (err) {
+//         return console.error('Error creating Directory:', err)
+
+//     }
+//     console.log('success'); 
+// })
+
+// fs.mkdirSync('newDirectory2')
+// console.log('Directory created');
+
+// fs.readdir('../',(err,files)=>{
+//     if (err) {
+//       return console.error('Error reading success:', err);
+//     }
+//     console.log('Directory content');
+
+// })
+
+// const files = fs.readdirSync('./')
+// console.log('Directory content');
+
+// const dirname = 'newDirectory'
+// if (fs.existsSync(dirname)) {
+//     console.log('Directory existed');  
+// }
+// else {
+//     console.log('Directory not exist');
+// }
+
+// fs.rmdir('newDirectory2', (err)=>{
+//     if (err) {
+//         return console.log('Error removing directory', err);
+//     }
+
+//     console.log('Directory removed ');
+
+// })
+// fs.rm('newDirectory2', {recursive:true},(err)=>{
+//     if (err) {
+//         return console.log('Error removing directory', err);
+//     }
+
+//     console.log('Directory removed ');
+
+// })
+
+// fs.rename('sex', 'newfolder', (err)=>{
+//     if (err) {
+//         return console.error('error rename directory', err);
+        
+//     }
+//     console.log('Directory renamed');
+
+// })
+
+
